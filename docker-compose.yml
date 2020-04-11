@@ -8,11 +8,11 @@ services:
         - target: 80
           published: 50210
     networks:
-        - containernetwork
+        - containernetwork2
   api2container:
     build: ./Api2/
     networks:
-        - containernetwork
+        - containernetwork2
 networks:
-  containernetwork:
+  containernetwork2:
               
