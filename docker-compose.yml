@@ -1,0 +1,18 @@
+version: "3.5"
+services:
+  api1container:
+    environment:
+        ASPNETCORE_ENVIRONMENT: docker
+    build: ./DockerComposeTest/
+    ports:
+        - target: 80
+          published: 50210
+    networks:
+        - containernetwork
+  api2container:
+    build: ./Api2/
+    networks:
+        - containernetwork
+networks:
+  containernetwork:
+              
