@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Api2/bin/Debug/netcoreapp2.2
+/Api2/obj
+/dockerComposeExample/.vs
+/DockerComposeTest/bin/Debug/netcoreapp2.2
+/DockerComposeTest/obj
+/.vs
